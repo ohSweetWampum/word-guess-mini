@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Guess Game</title>
 </head>
-
-<body>
-    <div>
-        <header>Welcome to the word guessing game!</header>
-    <h1>Guess the word!</h1>
+<body id = "block">
+    <div >
+    <h1>Welcome to the word guessing game!</h1>
+    <h2>Guess the word!</h2>
     </div>
     <div>
         <input type = "text" id = user-input >
     </div>
     <div>
-        <p class = wins>Total Wins:<span></span></p>
-        <p class = wins>Total Wins:<span></span></p>
+        <p class = "wins">Total Wins:<span></span></p>
+        <p class = "wins">Total Wins:<span></span></p>
     </div>
-    <div><button class = start>Start!</button>
+    <div><button class = "start-timer-now-button">Start!</button>
+        <p id = "countdownClock">Time Left:<span></span></p>
+
     </div>
 
-
+<script src = "script.js" ></script>
 </body>
 </html>
