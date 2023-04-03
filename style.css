@@ -4,3 +4,8 @@
     
 
 }
+<style>
+    input[type="text"] {
+        width: 200px; 
+    }
+</style>
